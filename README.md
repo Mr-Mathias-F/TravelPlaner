@@ -22,6 +22,8 @@ A PostgreSQL database with the PostGIS extension installed and enabled is requir
 CREATE EXTENSION postgis;
 ```
 
+The SQL schema used to store the extracted data is found in the `SQL_Schema` folder (also included in `TravelPlaner`)
+
 # How to use
 
 From `TravelPlaner --help`:
