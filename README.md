@@ -1,3 +1,19 @@
+# Required Python modules
+
+```
+pip install requests
+pip install psycopg2-binary
+```
+
+# Required PostgreSQL extensions
+
+
+```
+CREATE EXTENSION postgis;
+```
+
+# How to use
+
 From `TravelPlaner --help`:
 
 ```
