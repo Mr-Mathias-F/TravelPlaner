@@ -1,4 +1,13 @@
+# Setup
+
+```
+git clone https://github.com/Mr-Mathias-F/TravelPlaner.git
+sudo bash setup.sh
+```
+
 # Required Python modules
+
+The modules below is required to run the command-line tool or `.py` script:
 
 ```
 pip install requests
@@ -7,6 +16,7 @@ pip install psycopg2-binary
 
 # Required PostgreSQL extensions
 
+A PostgreSQL database with the PostGIS extension installed and enabled is required to store the geospatial data extracted from the Google Maps link.
 
 ```
 CREATE EXTENSION postgis;
@@ -39,3 +49,4 @@ options:
                         Add Additional Comment about Location.
   -t TYPE, --type TYPE  What Type of Location (Bar, Museum, Restaurant, etc.)
 ```
+Information about `-a, --api_key`, `-d, --dbname`, `-H, --host`, `-p, --port`, `-u, --user`, `-w, --password`, `-T, --tablename` will be stored in the `settings.ini` file located in the `/etc/TravelPlaner/` directory.
