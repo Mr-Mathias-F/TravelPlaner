@@ -14,7 +14,7 @@ pip install requests
 pip install psycopg2-binary
 ```
 
-# Required PostgreSQL extensions
+# Required PostgreSQL extension
 
 A PostgreSQL database with the PostGIS extension installed and enabled is required to store the geospatial data extracted from the Google Maps link.
 
